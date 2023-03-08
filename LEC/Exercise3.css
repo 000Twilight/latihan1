@@ -1,0 +1,33 @@
+tabel {
+    border: 1px solid #d6dde6;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid #d6dde6;
+    padding: 0.3em;
+}
+
+th {
+    border: 1px solid #828282;
+    background-color: #bcbcbc;
+    font-weight: bold;
+    padding-left: 0.3em;
+}
+
+#odd {
+    background-color: #dfe7f2;
+    color: #000000;
+}
+
+#last {
+    background-color: #ececec;
+}
+
+.center {
+    text-align: center;
+}
+
+#average {
+    text-align: right;
+}

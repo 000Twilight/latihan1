@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        jumlahMhs = window.prompt("Jumlah");
+        for(i = 1; i <= jumlahMhs; i++) {
+            console.log('test');
+            nama = window.prompt('Nama');
+            uts = window.prompt('UTS');
+            uas = window.prompt('UAS');
+            tugas = window.prompt('Tugas');
+            
+            akhir = ((tugas*0.3) + (uts*0.3) + (uas*0.4));
+            if(akhir <= 100 && akhir >= 0) {
+                if (akhir >= 85) {
+                    grade = "A";
+                } else if (akhir >= 80) {
+                    grade = "A-";
+                } else if (akhir >= 75) {
+                    grade = "B+";
+                } else if (akhir >= 70) {
+                    grade = "B";
+                } else if (akhir >= 65) {
+                    grade = "B-";
+                } else if (akhir >= 60) {
+                    grade = "C+";
+                } else if (akhir >= 55) {
+                    grade = "C";
+                } else if (akhir >= 45) {
+                    grade = "D";
+                } else {
+                    grade = "E";
+                }
+            } else {
+                grade = "ERROR"
+            }
+
+            document.write("<br /><br />" + 1 + ". " + nama + "<br />");
+            document.write("Tugas : " + tugas);
+            document.write("<br />UTS : " + uts);
+            document.write("<br />UAS : " + uas);
+            document.write("<br />Nilai Akhir : " + akhir);
+            document.write("<br />Grade : " + grade);
+        }
+
+    </script>
+</body>
+</html>

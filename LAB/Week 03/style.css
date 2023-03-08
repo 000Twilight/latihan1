@@ -1,0 +1,270 @@
+html {
+    max-width: 1000px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+#bungkus {
+    margin: 20px auto 0;
+}
+
+#logo img {
+    width: 80px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#logo {
+    margin-bottom: 20px; 
+}
+
+#menu {
+    margin-top: 50px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    border-bottom: 5px solid;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#highlight {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#highlight .box {
+    width: 320px;
+    height: 180px;
+    background: grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box img {
+    width: 320px;
+}
+
+.box1 img {
+    width: 400px;
+    border-radius: 10px;
+    margin-right: 45px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+.box3 img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#testimonials {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 275px;
+    width: 485px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: grey;
+}
+
+.box4 img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.box4 h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.box4 p {
+    text-align: center;
+    font-size: 16px;
+    margin-right: 25px;
+    margin-left: 30px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box5 {
+    height: 200px;
+    width: 850px;
+    background: deeppink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+}
+
+.box5 p {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    text-shadow: 1px 1px black;
+}
+
+
+.box5 input[type=text] {
+    width: 425px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.box5 input[type=button] {
+    width: 110px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255, 0.3);
+    outline: none;
+}
+
+::placeholder {
+    text-align: center;
+    color: gray;
+}
+
+#box_gray {
+    display: grid;
+    height: 250px;
+    width: 100%;
+    background: rgb(52, 52, 52);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#box_gray .last {
+    display: grid;
+    grid-template-areas: 
+        "PTT PTT"
+        "DSB Logo"
+        "Blok Logo"
+        "GS CP"
+        "Telp Telp"
+    ;
+    color: white;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+}
+
+DSB { grid-area: DSB; }
+
+Blok { grid-area: Blok; }
+
+Logo { 
+    grid-area: Logo; 
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+
+GS { grid-area: GS; }
+
+Telp { grid-area: Telp; }
+
+CP { 
+    grid-area: CP; 
+    text-align: right;
+    font-size: 13px;
+}
+
+PTT { 
+    grid-area: PTT; 
+    font-size: 18.72px;
+    font-weight: bold;
+}
+
+.last PTT {
+    margin-bottom: 20px;
+}
+
+.last Telp {
+    margin-top: 20px;
+}
+
+.last DSB {
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.last Blok {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.last GS {
+    margin-top: -5px;
+}
+
+.last img {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+

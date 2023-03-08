@@ -1,0 +1,74 @@
+body {
+    font-family: arial;
+    font-size: 14px;
+}
+
+#logo {
+    font-family: "Comic Sans MS";
+    color: tomato;
+    text-shadow: 2px 2px 2px #000;
+}
+
+ul#nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul#nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul#nav li a {
+    text-decoration: none;
+    padding: 10px 0;
+    color: deeppink;
+    font-weight: bold;
+}
+
+ul#nav li a:hover {
+    color: tomato;
+    border-bottom: 3px solid tomato;
+}
+
+button {
+    background: lightpink;
+    color: deeppink;
+    border: 2px solid deeppink;
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    text-shadow: 1px 1px black;
+}
+
+input {
+    background-color: yellow;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+img {
+    border: 25px solid;
+    color: whitesmoke;
+}
+
+img:hover {
+    border: 25px solid;
+    color: deeppink;
+}
+
+#arial {
+    font-family: Arial;
+}
+
+#DP {
+    text-align: center;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+#Below {
+    border-bottom: lightgray;
+}

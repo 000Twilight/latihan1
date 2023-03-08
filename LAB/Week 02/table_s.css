@@ -1,0 +1,20 @@
+td {
+    border-bottom: 2px solid;
+    border-color: lightgrey;
+}
+
+table {
+    border: 2px solid;
+    border-color: lightgrey;
+    width: 400px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: pink;
+    border-bottom: 2px solid;
+    border-color: lightgrey;
+}

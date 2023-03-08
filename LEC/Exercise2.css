@@ -1,0 +1,16 @@
+.nav li{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #999;
+    line-height: 38px;
+}
+
+.nav li a:link,
+.nav li a:visited{
+    text-decoration: none;
+    color: #999;
+    background: #333;
+    padding: 10px 20px;
+}
